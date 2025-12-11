@@ -3,12 +3,14 @@ import './App.css';
 
 //Homepage
 import Homepage from './pages/Homepage';
+import Canvas from './pages/Canvas';
 
 function App() {
   return (
     <div className="App">
       
       <Homepage />
+      <Canvas />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
